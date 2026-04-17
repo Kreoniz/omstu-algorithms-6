@@ -1,0 +1,16 @@
+[project]
+name = "omstu-algorithms-6"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "marimo>=0.22.0",
+    "matplotlib>=3.10.8",
+    "rich>=15.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.8",
+]
